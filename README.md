@@ -234,6 +234,10 @@ npm run weixin:build-dist # 生成微信本地/云端分发包
 npm run check:weixin      # 校验微信提示词与分发文件
 ```
 
+## 安卓壳 APK（可选）
+
+仓库包含 Android WebView 壳，可通过 GitHub Actions 构建 APK。构建方式、安装说明，以及**每位使用者如何配置自己的长期 APK 签名密钥**，请查看 [安卓壳使用与签名指南](./android-shell/README.md)。签名密钥和密码应由使用者自己保管，不要提交到仓库；Netlify 环境变量也不会自动配置 GitHub Actions 的 APK 签名。
+
 ## 分支选择
 
 本仓库长期保留两个设备兼容版本：

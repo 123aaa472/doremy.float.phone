@@ -1,6 +1,7 @@
 [build]
   command = "npm run build"
   publish = ".next"
+  environment = { NEXT_PUBLIC_SELF_HOSTED_MODE = "true" }
 
 # Keep this marker with the story tail-editor release so Netlify receives a
 # conventional config-file change and performs a fresh production build.
